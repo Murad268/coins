@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'Rocher';
+	src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+.main__page__title {
+	font-family: Rocher;
+	base-palette: 5;
+	font-size: 40px;
+	color: #3336ff; 
+   margin-bottom: 20px;
+}
