@@ -1,0 +1,70 @@
+.form {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+	padding-right: 52px;
+	margin-top: 25px;
+}
+
+.form > div {
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+}
+
+.form > div textarea {
+	padding-top: 9px;
+}
+.form > div input,
+form > div textarea {
+	margin-bottom: 20px;
+}
+.form > div:last-child {
+	justify-content: flex-start;
+}
+
+.form textarea {
+	height: 136px;
+}
+
+.area {
+	display: flex;
+	flex-direction: column;
+}
+.btns {
+	position: absolute;
+	right: 230px;
+	bottom: 45px;
+	display: flex;
+	column-gap: 15px;
+}
+.btn {
+	background: #833ae0;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-family: Roboto;
+	font-size: 17px;
+	width: 200px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	width: 120px;
+	height: 48px;
+	flex-shrink: 0;
+}
+
+.file {
+	width: 374px;
+	height: 48px;
+	flex-shrink: 0;
+	border: 1px solid #000;
+	background: rgba(196, 196, 196, 0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
